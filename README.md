@@ -116,11 +116,6 @@ behavior for KS.
   A rounding tolerance on the asymmetry scale counts numerical ties as
   exceedances; `p.value.threshold` records the cutoff actually used.
 
-The p-value correction is a deliberate difference from the uncorrected
-bootstrap proportions in the paper's simulation scripts. Consequently,
-this package is an implementation of the methods, not a replacement for
-the archived replication programs.
-
 ## Using inference responsibly
 
 The theory concerns independent, identically distributed observations,
@@ -129,7 +124,7 @@ with positive density near the trimmed quantile range. The band and test
 results also require the limiting statistic's distribution to be
 continuous and to strictly cross the relevant quantile level. The trim
 is fixed and chosen independently of the data. Increasing `B` reduces
-Monte Carlo error; the asymptotic results concern `B` increasing with
+Monte Carlo error and the asymptotic results concern `B` increasing with
 sample size.
 
 The point estimators accept ties, rounded data, and constant samples.

@@ -47,7 +47,7 @@ qe_symmetry_test(x, method = "ks", B = 199, seed = 7)
 
 ## Reference manual
 
-The [PDF reference manual](docs/qeshape-manual.pdf) contains the package
+The [PDF reference manual](qeshape-manual.pdf) contains the package
 overview, statistical assumptions, complete function reference, worked
 examples, and index. It is generated from the same help files installed
 with the package. To rebuild it from the source directory, with R and
